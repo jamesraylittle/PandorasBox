@@ -141,6 +141,7 @@ lib_managed/
 src_managed/
 project/boot/
 project/target/
+.idea
 project/plugins/project/
 
 # Scala-IDE specific

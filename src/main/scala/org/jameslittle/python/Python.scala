@@ -1,4 +1,4 @@
-package org.jameslittle
+package org.jameslittle.python
 
 import org.python.core.PyString
 import org.python.util.PythonInterpreter
@@ -15,4 +15,5 @@ object Python {
   }
 
   def string(s: String) : PyString = new PyString(s)
+
 }

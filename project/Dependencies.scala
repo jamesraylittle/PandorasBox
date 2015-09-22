@@ -7,5 +7,12 @@ object Dependencies {
     "org.python" % "jython-standalone" % "2.7-b3"
   )
 
-  def project = Python
+  val Graphics = Seq (
+    "org.scalafx" %% "scalafx" % "8.0.40-R8"
+  )
+
+  val json = Seq (
+    "org.json4s" %% "json4s-native" % "3.3.0.RC4"
+  )
+  def project = Python ++ Graphics ++ json
 }
